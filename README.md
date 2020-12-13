@@ -20,7 +20,7 @@ and the UNH Fullstack Coding Bootcamp
 
 if you want to contact me for any more questions here are my links!
 
-(hello@taylorgonz.com)
+hello@taylorgonz.com
 <br>
 [Website](http://www.taylorgonz.com)
 
