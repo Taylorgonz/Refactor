@@ -1,6 +1,6 @@
 # Horiseon Refactor
 
-## I was tasked with refactoring **[this web application]**(https://taylorgonz.github.io/Refactor/) to improve accessiblity and search engine optimization as well as reworking the css file to make it more efficient.
+## I was tasked with refactoring [this web application](https://taylorgonz.github.io/Refactor/) to improve accessiblity and search engine optimization as well as reworking the css file to make it more efficient.
 
 I have succesfully reworked the html to add more clarity to the elements within the code for better screen reader clarity. The CSS has also be reorganized to match the semantic nature
 of the html as well as condensing the amount of selectors where possible. 
