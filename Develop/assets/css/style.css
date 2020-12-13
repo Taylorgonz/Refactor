@@ -3,27 +3,27 @@
     padding: 0;
     margin: 0;
 }
-
+/* Setting background color for page */
 body {
     background-color: #d9dcd6;
 }
-
+/* Declaring header color and font */
 header.header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
-
+/* Putting header title inline and setting font */
 header.header h1 {
     display: inline-block;
     font-size: 48px;
 }
-
-header.header h1 .seo {
+/* Changing color of "seo" in Horiseon title */
+header.header h1 span.seo {
     color: #d9dcd6;
 }
-
+/* Setting navbar font and sizing */
 header.header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -31,25 +31,22 @@ header.header nav {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
-
-.header nav ul {
-    list-style-type: none;
-}
-
-.header nav ul li {
+/* Styling navbar */
+header.header nav ul li {
     display: inline-block;
     margin-left: 25px;
+    list-style-type: none;
 }
-
+/* Setting link color and decoration in navbar */
 li a {
     color: #ffffff;
     text-decoration: none;
 }
-
+/* Setting all paragraph font size */
 p {
     font-size: 16px;
 }
-
+/* Background image under navbar */
 img.hero {
     height: 800px;
     width: 100%;
@@ -58,23 +55,23 @@ img.hero {
     background-size: cover;
     background-position: center;
 }
-
+/* Floating images left in the search-engine-optimization and social-media-marketing div */
 img.float-left {
     float: left;
     margin-right: 25px;
 }
-
+/* Floating images right in online-reputation-management div */
 img.float-right {
     float: right;
     margin-left: 25px;
 }
-
+/* Settings for main tag */
 main.content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
-
+/* Setting for the aside block on the right hand side */
 aside.benefits {
     margin-right: 20px;
     padding: 20px;
@@ -85,28 +82,24 @@ aside.benefits {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
-
+/* Setting margin and font color for benefit-all class in the main tag */
 div.benefit-all {
     margin-bottom: 32px;
     color: #ffffff;
 }
-
-
+/* Setting margin and text for h3 element in the benefit-all class in the main tag */
 div.benefit-all h3 {
     margin-bottom: 10px;
     text-align: center;
 }
-
-
+/* Image settings for images in the benefit-all class in the main tag */
 div.benefit-all img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
-
-
-
-.search-engine-optimization {
+/* Settings for the content-all class withing the aside tag */
+div.content-all {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -114,59 +107,24 @@ div.benefit-all img {
     background-color: #0072bb;
     color: #ffffff;
 }
-
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.search-engine-optimization img {
+/* Setting for the image height for images in the content-all class */
+div.content-all img {
     max-height: 200px;
 }
-
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-.search-engine-optimization h2 {
+/* Setting for the h2 element in conent-all class*/
+div.content-all h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.footer {
+/* footer settings */
+footer.footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
 
-.footer h2 {
+footer.footer h2 {
     font-size: 20px;
 }
