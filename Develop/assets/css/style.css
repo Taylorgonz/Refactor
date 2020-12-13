@@ -41,7 +41,7 @@ header.header nav {
     margin-left: 25px;
 }
 
-a {
+li a {
     color: #ffffff;
     text-decoration: none;
 }
@@ -59,17 +59,17 @@ img.hero {
     background-position: center;
 }
 
-.float-left {
+img.float-left {
     float: left;
     margin-right: 25px;
 }
 
-.float-right {
+img.float-right {
     float: right;
     margin-left: 25px;
 }
 
-.content {
+main.content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
